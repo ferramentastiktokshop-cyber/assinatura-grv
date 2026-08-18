@@ -1,0 +1,41 @@
+GERADOR DE ASSINATURA DE E-MAIL - grvsoftware
+=============================================
+
+CONTEUDO
+  index.html        aplicativo (arquivo unico, sem build, sem dependencia)
+  logo-email.png    logo em PNG 600px para usar dentro da assinatura
+  icons/            os quatro icones em circulo laranja
+    site.png
+    telefone.png
+    email.png
+    local.png
+
+COMO PUBLICAR
+  1. Suba a pasta inteira para o servidor, mantendo a estrutura.
+     Caminho sugerido: grvsoftware.com.br/assinatura/
+  2. Acesse grvsoftware.com.br/assinatura/ e o app ja abre funcionando.
+
+  Alternativas sem servidor proprio:
+  - Netlify Drop (app.netlify.com/drop): arraste a pasta e pronto.
+  - GitHub Pages: suba a pasta no repositorio e ative o Pages.
+
+IMPORTANTE
+  A assinatura enviada por e-mail carrega a logo e os icones pela internet.
+  Por isso os arquivos precisam ficar publicos e em endereco fixo.
+  Se publicar em outro caminho, ajuste no app:
+    - campo "URL da logo" na secao Logo
+    - campo "Endereco da pasta" na secao Icones
+
+  Nao renomeie os arquivos de icone. O app monta o endereco de cada um
+  a partir do nome: site.png, telefone.png, email.png e local.png.
+
+COMO USAR NO GMAIL
+  1. Preencha os campos no app.
+  2. Clique em "Copiar assinatura".
+  3. Gmail > Configuracoes > Ver todas as configuracoes > Assinatura.
+  4. Cole no campo e salve.
+
+COMO USAR NO OUTLOOK
+  1. Clique em "Copiar assinatura".
+  2. Arquivo > Opcoes > Email > Assinaturas.
+  3. Cole no campo e salve.
